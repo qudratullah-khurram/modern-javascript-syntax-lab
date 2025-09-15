@@ -58,3 +58,16 @@ const userProfile = {
 }
 console.log (userProfile)
 
+// Exercise 8
+
+function grammer (noun = "cat", adjective = "orange") {
+  return `The ${noun} is ${adjective}.`;
+}
+console.log(grammer())
+
+// Exercise 9
+
+const pizzza = "tasty";
+const result = pizzza === "tasty" ? "yum" : "yuck";
+console.log (result)
+
