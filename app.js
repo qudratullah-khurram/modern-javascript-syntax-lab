@@ -71,3 +71,23 @@ const pizzza = "tasty";
 const result = pizzza === "tasty" ? "yum" : "yuck";
 console.log (result)
 
+// Exercise 10
+
+const localLangConfig = null;
+
+const lang = localLangConfig || "eng";
+console.log (lang)
+
+
+const savedUserTheme = "Dark";
+const theme = savedUserTheme || "light";
+console.log (theme)
+
+//Exercise 11
+
+const adventurer = {
+  name: 'Alice',
+};
+ 
+let cat = adventurer.cat?.age;
+console.log(cat)
