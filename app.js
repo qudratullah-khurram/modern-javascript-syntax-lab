@@ -28,3 +28,33 @@ const cars = {make, model} = car;
 console.log (make)
 console.log (model)
 
+//Exercise 4
+
+const morePizzaToppings = ['Cheese', 'Sauce'];
+
+const uncontroversialPizzaToppings = [... morePizzaToppings];
+
+console.log (uncontroversialPizzaToppings)
+
+//Exercise 5
+
+const anotherCar = {
+  make: 'Toyota',
+  model: 'RAV4',
+};
+
+const myCar = {...anotherCar}
+myCar.make = "Mercedes"
+myCar.model = "GLC"
+console.log("this is another car :-", anotherCar)
+console.log(" this is my car:-", myCar)
+
+//Exercise 6
+
+const propertyName = "username"
+
+const userProfile = {
+[propertyName]: "Ali"
+}
+console.log (userProfile)
+
